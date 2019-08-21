@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Products</title>
+  <title>Progress Task Part 1</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
   <h2>Products</h2>
-
   <div class="table-wrapper">
     <table id="display-table"class="fl-table">
       <thead>
@@ -22,12 +21,9 @@
           <th>View Details</th>
         </tr>
       </thead>
-      <tbody id="table-data">
-        
-      </tbody>
+      <tbody id="table-data"></tbody>
     </table>
   </div>
-
 
   <h2>Product Details</h2>
   <div class="table-wrapper">
@@ -35,13 +31,15 @@
       <thead>
         <tr>
           <th>Product Name</th>
-          <th>Category</th>
-          <th>Description</th>
+          <th>Product Category</th>
+          <th>Product Description</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="table-details">
         <tr>
-          <td>Details</td>
+          <td id="product-name"></td>
+          <td id="product-category">Click on a button to see details.</td>
+          <td id="product-description"></td>
         </tr>
       </tbody>
     </table>
