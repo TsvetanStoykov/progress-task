@@ -50,3 +50,14 @@ h2{
   background: #F8F8F8;
 }
 
+.fl-table td#product-name {
+  width: 33%;
+} 
+
+.fl-table td#product-category {
+  width: 33%;
+}
+
+.fl-table td#product-description {
+  width: 33%;
+}
